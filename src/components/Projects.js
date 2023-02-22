@@ -7,8 +7,8 @@ const Projects = ({ projects }) => {
       <h1 className="mt-8 text-2xl md:text-4xl text-center font-extrabold">
         My Projects
       </h1>
-      {projects.map((project) => (
-        <ProjectCard project={project} />
+      {projects.map((project, index) => (
+        <ProjectCard project={project} key={index} />
       ))}
     </div>
   );

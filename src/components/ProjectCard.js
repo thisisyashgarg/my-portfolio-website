@@ -10,7 +10,7 @@ const ProjectCard = ({
     <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
       <div className="flex text-xl text-center font-bold justify-center items-center space-x-2">
         <h1> {title} </h1>
-        <a href={codeLink}>
+        <a href={codeLink} target="_blank" rel="noopener noreferrer">
           <img
             alt="githublogo"
             className="inline align-baseline w-8 "
@@ -18,7 +18,7 @@ const ProjectCard = ({
           />
         </a>
         {websiteLink && (
-          <a href={websiteLink}>
+          <a href={websiteLink} target="_blank" rel="noopener noreferrer">
             <FaExternalLinkAlt className="inline align-baseline w-8 " />
           </a>
         )}
@@ -27,8 +27,10 @@ const ProjectCard = ({
       <hr className="my-4" />
       <p className="text-center">{description}</p>
       <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-2">
-        {tags.map((tag) => (
-          <div className="px-4 py-1 border-2 rounded-full">{tag}</div>
+        {tags.map((tag, index) => (
+          <div className="px-4 py-1 border-2 rounded-full" key={index}>
+            {tag}
+          </div>
         ))}
       </div>
       <div class="w-full text-center">

@@ -1,21 +1,28 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import About from "./components/About";
-
 import Card from "./components/Card";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import data from "./assets/data";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import Experience from "./components/Experience";
+import Shimmer from "./components/Shimmer";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      once: true,
-    });
-  });
+  // const [isPageLoaded, setIsPageLoaded] = useState(false);
+
+  // useEffect(() => {
+  //   setInterval(checkIfPageIsLoaded, 1000);
+  //   function checkIfPageIsLoaded() {
+  //     if (document.readyState === "complete") {
+  //       setIsPageLoaded(true);
+  //     } else {
+  //       setIsPageLoaded(false);
+  //     }
+  //   }
+  // }, []);
+
   return (
     <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100">
       <div>
