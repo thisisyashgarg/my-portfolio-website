@@ -30,11 +30,12 @@ function App() {
       </div>
       <div>
         <About title={data.about.title} description={data.about.description} />
+        <Skills skills={data.skills} />
         <Experience
           title={data.experience.title}
           companies={data.experience.companies}
         />
-        <Skills skills={data.skills} />
+
         <Projects projects={data.projects} />
       </div>
     </div>

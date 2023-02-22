@@ -180,5 +180,5 @@ const data = {
   ],
 };
 export const GITUHB_LOGO_URL =
-  "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
+  "https://cdn-icons-png.flaticon.com/512/25/25231.png";
 export default data;

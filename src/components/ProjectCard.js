@@ -8,12 +8,12 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
-      <div className="flex text-xl text-center font-bold justify-center items-center space-x-2">
+      <div className="flex text-xl text-center font-bold justify-center items-center space-x-3">
         <h1> {title} </h1>
         <a href={codeLink} target="_blank" rel="noopener noreferrer">
           <img
             alt="githublogo"
-            className="inline align-baseline w-8 "
+            className="inline align-baseline w-6 "
             src={GITUHB_LOGO_URL}
           />
         </a>
