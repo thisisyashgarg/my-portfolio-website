@@ -143,7 +143,7 @@ const data = {
         "tailwindcss",
       ],
       codeLink: "https://github.com/thisisyashgarg/ease-it",
-      websiteLink: "",
+      websiteLink: "https://easeit.cyclic.app/",
     },
     {
       title: "Meme Generator",
