@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import About from "./partials/About";
-import Card from "./partials/Card";
-import Projects from "./partials/Projects";
-import Skills from "./partials/Skills";
+import About from "./components/About";
+
+import Card from "./components/Card";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import data from "./assets/data";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Experience from "./components/Experience";
 
 function App() {
   useEffect(() => {
@@ -21,6 +23,10 @@ function App() {
       </div>
       <div>
         <About title={data.about.title} description={data.about.description} />
+        <Experience
+          title={data.experience.title}
+          companies={data.experience.companies}
+        />
         <Skills skills={data.skills} />
         <Projects projects={data.projects} />
       </div>
