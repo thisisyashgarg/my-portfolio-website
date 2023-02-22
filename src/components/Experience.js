@@ -1,5 +1,4 @@
 import React from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Experience({ title, companies }) {
   return (
