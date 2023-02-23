@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
+import { BACKWARD_LOGO, FORWARD_LOGO } from "../utils/constants";
+import { handleBackwardCarouselChange } from "../utils/helper";
+import { handleForwardCarouselChange } from "../utils/helper";
 
-const Carousel = () => {
-  return (
-    <img
-      alt="img"
-      src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80"
-    />
+const Carousel = ({ arrayOfImages }) => {
+  const [position, setPosition] = useState(0);
+
+  return arrayOfImages.length === 0 ? null : (
+    <div className="mb-6">
+      <img alt="img" src={arrayOfImages[position]} />
+      <div className="flex justify-between ">
+        <button
+          onClick={() =>
+            handleBackwardCarouselChange(arrayOfImages, position, setPosition)
+          }
+        >
+          <img className="w-8 " alt="backward" src={BACKWARD_LOGO} />
+        </button>
+        <button
+          onClick={() =>
+            handleForwardCarouselChange(arrayOfImages, position, setPosition)
+          }
+        >
+          <img className="w-8 " alt="forward" src={FORWARD_LOGO} />
+        </button>
+      </div>
+    </div>
   );
 };
 

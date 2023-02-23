@@ -13,7 +13,7 @@ const data = {
   about: {
     title: "My Background",
     description:
-      "I'm a third-year Btech (IT) student who loves building things. As a former UI/UX designer turned full-stack developer, I have experience with React, HTML, Tailwind, NodeJS, Firebase, and MongoDB. My passion for web development drives me to stay current with the latest technologies and to tackle projects of any size or complexity.",
+      "I'm a third-year Btech (IT) student who loves building things. As a former UI/UX designer turned full-stack developer, I have experience with React, HTML, TailwindCSS, NodeJS, Firebase, and MongoDB. My passion for web development drives me to stay current with the latest technologies and to tackle projects of any size or complexity.",
   },
   experience: {
     title: "My Experience",
@@ -144,6 +144,15 @@ const data = {
       ],
       codeLink: "https://github.com/thisisyashgarg/ease-it",
       websiteLink: "https://easeit.cyclic.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131881/easeit/Screenshot_Capture_-_2023-02-23_-_11-23-52_a73u2n.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131873/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-06_zthyxs.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-59_jujhur.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-29_dor78m.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131883/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-48_hh8jjf.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131884/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-15_y12upr.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131888/easeit/Screenshot_Capture_-_2023-02-23_-_11-25-12_w48ou0.png",
+      ],
     },
     {
       title: "Meme Generator",
@@ -152,6 +161,7 @@ const data = {
       tags: ["react", "typescript", "html2canvas", "download-js"],
       codeLink: "https://github.com/thisisyashgarg/meme-generator",
       websiteLink: "https://creatememes.netlify.app/",
+      screenshots: [],
     },
     {
       title: "Discord Tweeter Bot",
@@ -160,6 +170,7 @@ const data = {
       tags: ["twit", "discord-js", "nodejs", "twitter-apiV2"],
       codeLink: "https://github.com/thisisyashgarg/discord-tweeter-bot",
       websiteLink: "",
+      screenshots: [],
     },
     {
       title: "News Tweeter Bot",
@@ -168,6 +179,7 @@ const data = {
       tags: ["xml-js", "twit", "openai", "newsdata-api"],
       codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
       websiteLink: "",
+      screenshots: [],
     },
     {
       title: "NodeJS Crawler",
@@ -176,6 +188,7 @@ const data = {
       tags: ["nodejs", "puppeteer", "headless-browser"],
       codeLink: "https://github.com/thisisyashgarg/nodejs-crawler",
       websiteLink: "",
+      screenshots: [],
     },
   ],
 };
