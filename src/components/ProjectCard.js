@@ -27,8 +27,8 @@ const ProjectCard = ({
         </div>
 
         <hr className="my-4" />
-        <p className="text-center  text-gray-600 ">{description}</p>
-        <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-2">
+        <p className="text-center  text-gray-700 ">{description}</p>
+        <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-2 text-gray-600">
           {tags.map((tag, index) => (
             <div className="px-4 py-1 border-2 rounded-full" key={index}>
               {tag}
