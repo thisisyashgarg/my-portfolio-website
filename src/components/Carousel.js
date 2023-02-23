@@ -4,7 +4,6 @@ import backwardlogo from "../images/arrow_back_ios_new_FILL0_wght400_GRAD0_opsz4
 import { handleBackwardCarouselChange } from "../utils/helper";
 import { handleForwardCarouselChange } from "../utils/helper";
 import AOS from "aos";
-import { SHIMMER_IMAGE_URL } from "../utils/constants";
 
 const Carousel = ({ arrayOfImages }) => {
   const [position, setPosition] = useState(0);
