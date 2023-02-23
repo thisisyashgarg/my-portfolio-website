@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import data from "./assets/data";
 import "aos/dist/aos.css";
 import Experience from "./components/Experience";
-import Shimmer from "./components/Shimmer";
+import Carousel from "./components/Carousel";
 
 function App() {
   // const [isPageLoaded, setIsPageLoaded] = useState(false);
