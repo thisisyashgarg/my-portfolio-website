@@ -2,7 +2,6 @@ import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import GitHubButton from "react-github-btn";
 import { GITUHB_LOGO_URL } from "../assets/data";
-import Carousel from "./Carousel";
 
 const ProjectCard = ({
   project: { title, description, tags, codeLink, websiteLink },

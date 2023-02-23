@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
 import About from "./components/About";
 import Card from "./components/Card";
@@ -7,7 +7,6 @@ import Skills from "./components/Skills";
 import data from "./assets/data";
 import "aos/dist/aos.css";
 import Experience from "./components/Experience";
-import Carousel from "./components/Carousel";
 
 function App() {
   // const [isPageLoaded, setIsPageLoaded] = useState(false);
