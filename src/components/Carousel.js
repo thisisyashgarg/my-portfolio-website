@@ -8,7 +8,11 @@ const Carousel = ({ arrayOfImages }) => {
 
   return arrayOfImages.length === 0 ? null : (
     <div className="mb-6">
-      <img alt="img" src={arrayOfImages[position]} />
+      <img
+        alt="img"
+        className="border rounded-xl"
+        src={arrayOfImages[position]}
+      />
       <div className="flex justify-between ">
         <button
           onClick={() =>

@@ -132,7 +132,7 @@ const data = {
   ],
   projects: [
     {
-      title: "EaseIt",
+      title: "Ease It",
       description:
         "EaseIt is an AI powered tool that can write personalised messages, debug code of any language, make songs in any artist style, make your workout plan and can do anything that you can think of.",
       tags: [
@@ -161,7 +161,9 @@ const data = {
       tags: ["react", "typescript", "html2canvas", "download-js"],
       codeLink: "https://github.com/thisisyashgarg/meme-generator",
       websiteLink: "https://creatememes.netlify.app/",
-      screenshots: [],
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677136172/meme-generator/Screenshot_Capture_-_2023-02-23_-_12-38-21_tmrqke.png",
+      ],
     },
     {
       title: "Discord Tweeter Bot",
@@ -170,7 +172,9 @@ const data = {
       tags: ["twit", "discord-js", "nodejs", "twitter-apiV2"],
       codeLink: "https://github.com/thisisyashgarg/discord-tweeter-bot",
       websiteLink: "",
-      screenshots: [],
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677137451/discord-bot/Screenshot_Capture_-_2023-02-23_-_12-59-59_cci6qa.png",
+      ],
     },
     {
       title: "News Tweeter Bot",

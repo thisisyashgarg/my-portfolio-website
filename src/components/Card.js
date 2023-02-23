@@ -8,7 +8,7 @@ import { FaRegEnvelope } from "react-icons/fa";
 function Card({ name, title, social: { github, linkedin, twitter, email } }) {
   return (
     <div className="w-full">
-      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white  rounded-xl p-5 border">
+      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white rounded-xl p-5 border">
         <img
           className="w-32 mx-auto shadow-xl rounded-full"
           src={profile}
