@@ -21,8 +21,8 @@ const data = {
       {
         name: "Slingshot",
         description:
-          "Slingshot scout and place teenage prodigies at top startups and companies. Think about what a college basketball scout is to high school basketball; we're that for teenage coders, hackers and hustlers.",
-        tenure: "Nov 2022 - Feb 2023 (4 months) (SDE Intern)",
+          "Slingshot scouts and place teenage prodigies at top startups and companies. I worked in the new ventures department which experiments with new and unique ideas and try to make a business out of it.",
+        tenure: "Nov 2022 - Feb 2023 (4 months) (Intern)",
         websiteLink: "https://slingshotahead.com/",
       },
     ],
