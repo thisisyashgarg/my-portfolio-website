@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { BACKWARD_LOGO, FORWARD_LOGO } from "../utils/constants";
+import forwardlogo from "../images/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.svg";
+import backwardlogo from "../images/arrow_back_ios_new_FILL0_wght400_GRAD0_opsz48.svg";
 import { handleBackwardCarouselChange } from "../utils/helper";
 import { handleForwardCarouselChange } from "../utils/helper";
 import AOS from "aos";
+import { SHIMMER_IMAGE_URL } from "../utils/constants";
 
 const Carousel = ({ arrayOfImages }) => {
   const [position, setPosition] = useState(0);
@@ -14,28 +16,34 @@ const Carousel = ({ arrayOfImages }) => {
   });
 
   return arrayOfImages.length === 0 ? null : (
-    <div className="mb-6">
+    <div className="relative mb-6">
       <img
         alt="img"
-        className="border rounded-xl "
+        className="border rounded-xl w-full "
         src={arrayOfImages[position]}
       />
-      <div className="flex justify-between">
-        <button
-          onClick={() =>
-            handleBackwardCarouselChange(arrayOfImages, position, setPosition)
-          }
-        >
-          <img className="w-8 " alt="backward" src={BACKWARD_LOGO} />
-        </button>
-        <button
-          onClick={() =>
-            handleForwardCarouselChange(arrayOfImages, position, setPosition)
-          }
-        >
-          <img className="w-8 " alt="forward" src={FORWARD_LOGO} />
-        </button>
-      </div>
+
+      {arrayOfImages.length > 1 && (
+        <>
+          <img
+            onClick={() =>
+              handleBackwardCarouselChange(arrayOfImages, position, setPosition)
+            }
+            className="absolute top-0 mt-32 ml-5 w-8 bg-gray-100 rounded-full p-2 cursor-pointer hover:bg-gray-200 border"
+            alt="backward"
+            src={backwardlogo}
+          />
+
+          <img
+            onClick={() =>
+              handleForwardCarouselChange(arrayOfImages, position, setPosition)
+            }
+            className="absolute top-0 right-0 mt-32 mr-5 w-8 bg-gray-100 rounded-full p-2 cursor-pointer hover:bg-gray-200 border"
+            alt="forward"
+            src={forwardlogo}
+          />
+        </>
+      )}
     </div>
   );
 };

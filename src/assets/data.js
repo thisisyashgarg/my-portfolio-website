@@ -132,7 +132,7 @@ const data = {
   ],
   projects: [
     {
-      title: "Ease It",
+      title: "EaseIt",
       description:
         "EaseIt is an AI powered tool that can write personalised messages, debug code of any language, make songs in any artist style, make your workout plan and can do anything that you can think of.",
       tags: [
@@ -152,6 +152,19 @@ const data = {
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131883/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-48_hh8jjf.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131884/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-15_y12upr.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131888/easeit/Screenshot_Capture_-_2023-02-23_-_11-25-12_w48ou0.png",
+      ],
+    },
+    {
+      title: "UnQueue",
+      description:
+        "UnQueue eliminates physical queues by joining virtual queues from your device, receive turn notifications, making it convenient and efficient.",
+      tags: ["react", "tailwindcss", "react-router-dom", "firebase"],
+      codeLink: "https://github.com/thisisyashgarg/unqueue",
+      websiteLink: "https://unqueue.netlify.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/homepage_bej3xk.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/domains_d11nth.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179979/unqueue-ss/dashboard_gepykw.png",
       ],
     },
     {

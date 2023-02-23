@@ -37,7 +37,9 @@ function App() {
         />
       </div>
 
-      <Projects projects={data.projects} />
+      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
+        <Projects projects={data.projects} />
+      </div>
     </div>
   );
 }
