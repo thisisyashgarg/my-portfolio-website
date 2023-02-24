@@ -1,11 +1,19 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import GitHubButton from "react-github-btn";
-import { GITUHB_LOGO_URL } from "../assets/data";
+import { GITUHB_LOGO_URL, ANDROID_LOGO } from "../utils/constants";
 import Carousel from "./Carousel";
 
 const ProjectCard = ({
-  project: { title, description, tags, codeLink, websiteLink, screenshots },
+  project: {
+    title,
+    description,
+    tags,
+    codeLink,
+    websiteLink,
+    screenshots,
+    androidAppLink,
+  },
 }) => {
   return (
     <>
@@ -19,6 +27,15 @@ const ProjectCard = ({
               src={GITUHB_LOGO_URL}
             />
           </a>
+          {androidAppLink && (
+            <a href={androidAppLink} target="_blank" rel="noopener noreferrer">
+              <img
+                alt="androidLogo"
+                className="inline align-baseline w-6 "
+                src={ANDROID_LOGO}
+              />
+            </a>
+          )}
           {websiteLink && (
             <a href={websiteLink} target="_blank" rel="noopener noreferrer">
               <FaExternalLinkAlt className="inline align-baseline w-8 " />
@@ -27,16 +44,17 @@ const ProjectCard = ({
         </div>
 
         <hr className="my-4" />
-        <p className="text-center  text-gray-700 ">{description}</p>
+        <p className="text-center  text-gray-700 mb-8">{description}</p>
+
+        <Carousel arrayOfImages={screenshots} />
+
         <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-2 text-gray-600">
           {tags.map((tag, index) => (
             <div className="px-4 py-1 border-2 rounded-full" key={index}>
-              {tag}
+              #{tag}
             </div>
           ))}
         </div>
-
-        <Carousel arrayOfImages={screenshots} />
 
         <div class="w-full text-center">
           <GitHubButton

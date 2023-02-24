@@ -15,7 +15,7 @@ const Carousel = ({ arrayOfImages }) => {
   });
 
   return arrayOfImages.length === 0 ? null : (
-    <div className="relative mb-6">
+    <div className="relative mb-6  	">
       <img
         alt="img"
         className="border rounded-xl w-full "
@@ -28,7 +28,7 @@ const Carousel = ({ arrayOfImages }) => {
             onClick={() =>
               handleBackwardCarouselChange(arrayOfImages, position, setPosition)
             }
-            className="absolute top-0 mt-32 ml-5 w-8 bg-gray-100 rounded-full p-2 cursor-pointer hover:bg-gray-200 border"
+            className="absolute top-0 ml-5 w-8 lg:mt-32 md:mt-20 sm:mt-16 mt-20 bg-gray-100 rounded-full p-2 cursor-pointer hover:bg-gray-200 border"
             alt="backward"
             src={backwardlogo}
           />
@@ -37,7 +37,7 @@ const Carousel = ({ arrayOfImages }) => {
             onClick={() =>
               handleForwardCarouselChange(arrayOfImages, position, setPosition)
             }
-            className="absolute top-0 right-0 mt-32 mr-5 w-8 bg-gray-100 rounded-full p-2 cursor-pointer hover:bg-gray-200 border"
+            className="absolute top-0 right-0 mr-5 w-8 lg:mt-32 md:mt-20 sm:mt-16 mt-20 bg-gray-100 rounded-full p-2 cursor-pointer hover:bg-gray-200 border"
             alt="forward"
             src={forwardlogo}
           />

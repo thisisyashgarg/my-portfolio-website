@@ -161,6 +161,8 @@ const data = {
       tags: ["react", "tailwindcss", "react-router-dom", "firebase"],
       codeLink: "https://github.com/thisisyashgarg/unqueue",
       websiteLink: "https://unqueue.netlify.app/",
+      androidAppLink:
+        "https://drive.google.com/file/d/1MSBI-mFwClxi61kw8yo7R9Cxm3lFR0R5/view?usp=sharing",
       screenshots: [
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/homepage_bej3xk.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/domains_d11nth.png",
@@ -170,10 +172,11 @@ const data = {
     {
       title: "Meme Generator",
       description:
-        "This is a meme generator that genrates a random meme template and takes input text, dynamically adds it to a meme. You can download the meme as well. Have fun with it.",
+        "This is a meme generator that generates a random meme template and takes input text, dynamically adds it to a meme. You can download the meme as well. Have fun with it.",
       tags: ["react", "typescript", "html2canvas", "download-js"],
       codeLink: "https://github.com/thisisyashgarg/meme-generator",
       websiteLink: "https://creatememes.netlify.app/",
+
       screenshots: [
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677136172/meme-generator/Screenshot_Capture_-_2023-02-23_-_12-38-21_tmrqke.png",
       ],
@@ -209,6 +212,5 @@ const data = {
     },
   ],
 };
-export const GITUHB_LOGO_URL =
-  "https://cdn-icons-png.flaticon.com/512/25/25231.png";
+
 export default data;
