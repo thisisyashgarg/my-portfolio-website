@@ -90,7 +90,7 @@ const data = {
       ),
     },
     {
-      skillName: "AWS",
+      skillName: "EC2 (AWS)",
       skillIcon: (
         <img
           alt="awslogo"
