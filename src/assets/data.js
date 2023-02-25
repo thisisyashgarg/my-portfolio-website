@@ -170,6 +170,18 @@ const data = {
       ],
     },
     {
+      title: "News Tweeter Bot",
+      description:
+        "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
+      tags: ["xml-js", "twit", "openai", "newsdata-api"],
+      codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
+      websiteLink:
+        "https://twitter.com/IAmCryptologer?t=Rv_xgKBcUDbNc1lbUrBjhw&s=09",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
+      ],
+    },
+    {
       title: "Meme Generator",
       description:
         "This is a meme generator that generates a random meme template and takes input text, dynamically adds it to a meme. You can download the meme as well. Have fun with it.",
@@ -192,15 +204,7 @@ const data = {
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677137451/discord-bot/Screenshot_Capture_-_2023-02-23_-_12-59-59_cci6qa.png",
       ],
     },
-    {
-      title: "News Tweeter Bot",
-      description:
-        "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
-      tags: ["xml-js", "twit", "openai", "newsdata-api"],
-      codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
-      websiteLink: "",
-      screenshots: [],
-    },
+
     {
       title: "NodeJS Crawler",
       description:
