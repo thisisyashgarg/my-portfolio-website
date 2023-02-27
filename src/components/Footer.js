@@ -1,4 +1,5 @@
 import React from "react";
+import { RESUME_LINK } from "../assets/data";
 
 function Footer({ github }) {
   return (
@@ -8,7 +9,7 @@ function Footer({ github }) {
         <a
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline"
-          href="https://drive.google.com/file/d/1YEUQJ7kX3o62xhcsU5_55PzFNeUmlsGM/view?usp=share_link"
+          href={RESUME_LINK}
           target="_blank"
         >
           Resume

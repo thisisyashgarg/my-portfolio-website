@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { AiFillFilePpt } from "react-icons/ai";
+import { RESUME_LINK } from "../assets/data";
 
 function Card({ name, title, social: { github, linkedin, twitter, email } }) {
   return (
@@ -63,10 +64,7 @@ function Card({ name, title, social: { github, linkedin, twitter, email } }) {
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-500 hover:bg-red-500 rounded-full hover:text-white transition-colors duration-300"
-            href={
-              "https://drive.google.com/file/d/1YEUQJ7kX3o62xhcsU5_55PzFNeUmlsGM/view?usp=share_link" +
-              email
-            }
+            href={RESUME_LINK}
           >
             <AiFillFilePpt />
             <span class="sr-only">Resume</span>

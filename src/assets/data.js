@@ -1,6 +1,8 @@
 import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
+export const RESUME_LINK =
+  "https://drive.google.com/file/d/1crq_9W4UzKPFbCUAt1vrc4b-tXF1p50C/view?usp=share_link";
 const data = {
   name: "Yash Garg",
   title: "Web Developer",
