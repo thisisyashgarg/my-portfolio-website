@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./components/About";
 import Card from "./components/Card";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import data from "./assets/data";
 import "aos/dist/aos.css";
@@ -40,6 +41,7 @@ function App() {
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
         <Projects projects={data.projects} />
       </div>
+      <Footer github={data.social.github} />
     </div>
   );
 }
