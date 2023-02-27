@@ -170,6 +170,18 @@ const data = {
       ],
     },
     {
+      title: "Foodify",
+      description: "Foodify is a swiggy clone app",
+      tags: ["react", "tailwindcss", "redux-toolkit", "typescript"],
+      codeLink: "https://github.com/thisisyashgarg/namaste-react",
+      websiteLink: "https://foodifyme.netlify.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495619/foodify/home_rdikc3.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/menu_ibpjha.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/cart_lio0de.png",
+      ],
+    },
+    {
       title: "News Tweeter Bot",
       description:
         "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
