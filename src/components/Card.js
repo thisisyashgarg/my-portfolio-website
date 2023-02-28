@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/profile.png";
+import { PROFILE_PIC } from "../assets/data";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -12,7 +12,7 @@ function Card({ name, title, social: { github, linkedin, twitter, email } }) {
     <div className="w-full flex flex-col justify-center max-w-xs mx-auto bg-white rounded-xl p-5 border">
       <img
         className="w-32 mx-auto shadow-xl rounded-full"
-        src={profile}
+        src={PROFILE_PIC}
         alt="Profile face"
       />
 
