@@ -174,6 +174,24 @@ const data = {
       ],
     },
     {
+      title: "FooBank - Modern Banking Website",
+      description:
+        "Completely responsive modern banking website made out of just two dependencies, React and Tailwiind",
+      tags: ["react", "typescript", "tailwindcss"],
+      codeLink: "https://github.com/thisisyashgarg/banking-app",
+      websiteLink: "https://foobank.netlify.app/",
+
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-08_awcva1.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-32_gtfpak.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-58_mpxjpc.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-17_vjhpda.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-26_xytphk.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-21_iwnxkx.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-15_ik4d4z.png",
+      ],
+    },
+    {
       title: "Foodify",
       description: "Foodify is a swiggy clone app",
       tags: ["react", "tailwindcss", "redux-toolkit", "typescript"],
@@ -197,6 +215,7 @@ const data = {
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
       ],
     },
+
     {
       title: "Meme Generator",
       description:
