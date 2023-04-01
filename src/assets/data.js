@@ -7,7 +7,7 @@ export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
   name: "Yash Garg",
-  title: "Web Developer",
+  title: "Full Stack Developer",
   social: {
     github: "https://github.com/thisisyashgarg",
     linkedin: "https://linkedin.com/in/thisisyashgarg",
@@ -17,7 +17,7 @@ const data = {
   about: {
     title: "My Background",
     description:
-      "I'm a third-year Btech (IT) student who loves building things. As a former UI/UX designer turned full-stack developer, I have experience with React, HTML, TailwindCSS, NodeJS, Firebase, and MongoDB. My passion for web development drives me to stay current with the latest technologies and to tackle projects of any size or complexity.",
+      "I'm a third-year B.Tech (Information Technology) student who loves building things. My passion for creating projects from scratch drives me to stay current with the latest technologies and to tackle projects of any size or complexity.  ",
   },
   experience: {
     title: "My Experience",
@@ -166,11 +166,72 @@ const data = {
       codeLink: "https://github.com/thisisyashgarg/unqueue",
       websiteLink: "https://unqueue.netlify.app/",
       androidAppLink:
-        "https://drive.google.com/file/d/1MSBI-mFwClxi61kw8yo7R9Cxm3lFR0R5/view?usp=sharing",
+        'https://drive.google.com/file/d/1jlq_eQv7EnLtAJlUlP_37OnmFaApuuPT/view?usp=drivesdk',
       screenshots: [
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/homepage_bej3xk.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/domains_d11nth.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179979/unqueue-ss/dashboard_gepykw.png",
+      ],
+    },
+   
+    {
+      title: "Foodify",
+      description: "Foodify is a swiggy clone app",
+      tags: ["react", "tailwindcss", "redux-toolkit", "typescript"],
+      codeLink: "https://github.com/thisisyashgarg/namaste-react",
+      websiteLink: "https://foodifyme.netlify.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495619/foodify/home_rdikc3.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/menu_ibpjha.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/cart_lio0de.png",
+      ],
+    },
+    {
+      title: "Ain't Youtube",
+      description: "Ain't Youtube is a youtube clone",
+      tags: ["react", "tailwindcss", "redux-toolkit", "typescript", "youtube-api"],
+      codeLink: "https://github.com/thisisyashgarg/youtube-clone",
+      websiteLink: "https://aintyoutube.netlify.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374548/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-12_qf9qqa.png",
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374550/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-41_jqa6fd.png",
+
+      ],
+    },
+    {
+      title: "News Tweeter Bot",
+      description:
+        "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
+      tags: ["xml-js", "twit", "openai", "newsdata-api"],
+      codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
+      websiteLink:
+        "https://twitter.com/IAmCryptologer?t=Rv_xgKBcUDbNc1lbUrBjhw&s=09",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
+      ],
+    },
+    {
+      title: "Book Managemnet API ( with Swagger Docs)",
+      description:
+"A simple API for book management",
+     tags: ["nodejs", "typescript", "swagger", "docker", "mvc"],
+      codeLink: "https://github.com/thisisyashgarg/vocally-assignment",
+      websiteLink: "",
+      screenshots: [
+"https://res.cloudinary.com/dwwtffefs/image/upload/v1680375357/books-api/Screenshot_Capture_-_2023-04-02_-_00-25-09_xnsdo8.png"      ],
+    },
+
+
+    {
+      title: "Meme Generator",
+      description:
+        "This is a meme generator that generates a random meme template and takes input text, dynamically adds it to a meme. You can download the meme as well. Have fun with it.",
+      tags: ["react", "typescript", "html2canvas", "download-js"],
+      codeLink: "https://github.com/thisisyashgarg/meme-generator",
+      websiteLink: "https://creatememes.netlify.app/",
+
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677136172/meme-generator/Screenshot_Capture_-_2023-02-23_-_12-38-21_tmrqke.png",
       ],
     },
     {
@@ -192,41 +253,15 @@ const data = {
       ],
     },
     {
-      title: "Foodify",
-      description: "Foodify is a swiggy clone app",
-      tags: ["react", "tailwindcss", "redux-toolkit", "typescript"],
-      codeLink: "https://github.com/thisisyashgarg/namaste-react",
-      websiteLink: "https://foodifyme.netlify.app/",
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495619/foodify/home_rdikc3.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/menu_ibpjha.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/cart_lio0de.png",
-      ],
-    },
-    {
-      title: "News Tweeter Bot",
+      title: "Tenzies Game",
       description:
-        "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
-      tags: ["xml-js", "twit", "openai", "newsdata-api"],
-      codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
-      websiteLink:
-        "https://twitter.com/IAmCryptologer?t=Rv_xgKBcUDbNc1lbUrBjhw&s=09",
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
-      ],
-    },
-
-    {
-      title: "Meme Generator",
-      description:
-        "This is a meme generator that generates a random meme template and takes input text, dynamically adds it to a meme. You can download the meme as well. Have fun with it.",
-      tags: ["react", "typescript", "html2canvas", "download-js"],
-      codeLink: "https://github.com/thisisyashgarg/meme-generator",
-      websiteLink: "https://creatememes.netlify.app/",
+"Tenzies is a React-based dice game in which the goal is to roll until all dice are the same.",
+      tags: ["react", "typescript", "tailwindcss"],
+      codeLink: "https://github.com/thisisyashgarg/tenzies-game",
+      websiteLink: "https://tenziesmatch.netlify.app/",
 
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677136172/meme-generator/Screenshot_Capture_-_2023-02-23_-_12-38-21_tmrqke.png",
-      ],
+"https://res.cloudinary.com/dwwtffefs/image/upload/v1679938405/tenzies/Screenshot_Capture_-_2023-03-27_-_23-03-08_putehk.png"      ],
     },
     {
       title: "Discord Tweeter Bot",
