@@ -211,7 +211,7 @@ const data = {
       ],
     },
     {
-      title: "Book Managemnet API ( with Swagger Docs)",
+      title: "Book Management API ( with Swagger Docs)",
       description:
 "A simple API for book management",
      tags: ["nodejs", "typescript", "swagger", "docker", "mvc"],
