@@ -4,7 +4,7 @@ const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
   "https://drive.google.com/file/d/1fnp-u0qffCsLzLX65vicHxA79fnQ9Iyi/view?usp=sharing";
 export const PROFILE_PIC =
-  "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
+  "https://res.cloudinary.com/decollab/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
   name: "Yash Garg",
   title: "Full Stack Developer",
@@ -129,7 +129,7 @@ const data = {
         <img
           alt="csslogo"
           className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1682686749/1452px-CSS3_logo_and_wordmark.svg-removebg-preview_cgguni.png"
+          src="https://res.cloudinary.com/decollab/image/upload/v1682686749/1452px-CSS3_logo_and_wordmark.svg-removebg-preview_cgguni.png"
         />
       ),
     },
@@ -146,9 +146,9 @@ const data = {
       androidAppLink:
         'https://drive.google.com/file/d/1jlq_eQv7EnLtAJlUlP_37OnmFaApuuPT/view?usp=drivesdk',
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/homepage_bej3xk.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/domains_d11nth.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179979/unqueue-ss/dashboard_gepykw.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677179980/unqueue-ss/homepage_bej3xk.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677179980/unqueue-ss/domains_d11nth.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677179979/unqueue-ss/dashboard_gepykw.png",
       ],
     },
    
@@ -159,9 +159,9 @@ const data = {
       codeLink: "https://github.com/thisisyashgarg/namaste-react",
       websiteLink: "https://foodifyme.netlify.app/",
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495619/foodify/home_rdikc3.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/menu_ibpjha.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/cart_lio0de.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677495619/foodify/home_rdikc3.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677495618/foodify/menu_ibpjha.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677495618/foodify/cart_lio0de.png",
       ],
     },
     {
@@ -171,8 +171,8 @@ const data = {
       codeLink: "https://github.com/thisisyashgarg/youtube-clone",
       websiteLink: "https://aintyoutube.netlify.app/",
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374548/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-12_qf9qqa.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374550/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-41_jqa6fd.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1680374548/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-12_qf9qqa.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1680374550/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-41_jqa6fd.png",
 
       ],
     },
@@ -185,7 +185,7 @@ const data = {
       websiteLink:
         "https://twitter.com/IAmCryptologer?t=Rv_xgKBcUDbNc1lbUrBjhw&s=09",
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
       ],
     },
      {
@@ -202,13 +202,13 @@ const data = {
       codeLink: "https://github.com/thisisyashgarg/ease-it",
       websiteLink: "https://easeit.cyclic.app/",
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131881/easeit/Screenshot_Capture_-_2023-02-23_-_11-23-52_a73u2n.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131873/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-06_zthyxs.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-59_jujhur.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-29_dor78m.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131883/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-48_hh8jjf.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131884/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-15_y12upr.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131888/easeit/Screenshot_Capture_-_2023-02-23_-_11-25-12_w48ou0.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677131881/easeit/Screenshot_Capture_-_2023-02-23_-_11-23-52_a73u2n.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677131873/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-06_zthyxs.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-59_jujhur.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-29_dor78m.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677131883/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-48_hh8jjf.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677131884/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-15_y12upr.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677131888/easeit/Screenshot_Capture_-_2023-02-23_-_11-25-12_w48ou0.png",
       ],
     },
     {
@@ -219,7 +219,7 @@ const data = {
       codeLink: "https://github.com/thisisyashgarg/vocally-assignment",
       websiteLink: "",
       screenshots: [
-"https://res.cloudinary.com/dwwtffefs/image/upload/v1680375357/books-api/Screenshot_Capture_-_2023-04-02_-_00-25-09_xnsdo8.png"      ],
+"https://res.cloudinary.com/decollab/image/upload/v1680375357/books-api/Screenshot_Capture_-_2023-04-02_-_00-25-09_xnsdo8.png"      ],
     },
 
 
@@ -232,7 +232,7 @@ const data = {
       websiteLink: "https://creatememes.netlify.app/",
 
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677136172/meme-generator/Screenshot_Capture_-_2023-02-23_-_12-38-21_tmrqke.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677136172/meme-generator/Screenshot_Capture_-_2023-02-23_-_12-38-21_tmrqke.png",
       ],
     },
     {
@@ -244,13 +244,13 @@ const data = {
       websiteLink: "https://foobank.netlify.app/",
 
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-08_awcva1.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-32_gtfpak.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-58_mpxjpc.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-17_vjhpda.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-26_xytphk.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-21_iwnxkx.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-15_ik4d4z.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-08_awcva1.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-32_gtfpak.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-58_mpxjpc.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-17_vjhpda.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-26_xytphk.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-21_iwnxkx.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-15_ik4d4z.png",
       ],
     },
     {
@@ -262,7 +262,7 @@ const data = {
       websiteLink: "https://tenziesmatch.netlify.app/",
 
       screenshots: [
-"https://res.cloudinary.com/dwwtffefs/image/upload/v1679938405/tenzies/Screenshot_Capture_-_2023-03-27_-_23-03-08_putehk.png"      ],
+"https://res.cloudinary.com/decollab/image/upload/v1679938405/tenzies/Screenshot_Capture_-_2023-03-27_-_23-03-08_putehk.png"      ],
     },
     {
       title: "Discord Tweeter Bot",
@@ -272,7 +272,7 @@ const data = {
       codeLink: "https://github.com/thisisyashgarg/discord-tweeter-bot",
       websiteLink: "",
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677137451/discord-bot/Screenshot_Capture_-_2023-02-23_-_12-59-59_cci6qa.png",
+        "https://res.cloudinary.com/decollab/image/upload/v1677137451/discord-bot/Screenshot_Capture_-_2023-02-23_-_12-59-59_cci6qa.png",
       ],
     },
 
