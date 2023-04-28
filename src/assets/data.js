@@ -129,7 +129,7 @@ const data = {
         <img
           alt="csslogo"
           className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://e7.pngegg.com/pngimages/893/87/png-clipart-web-development-html-cascading-style-sheets-css3-bootstrap-minimalist-resume-blue-angle.png"
+          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1682686749/1452px-CSS3_logo_and_wordmark.svg-removebg-preview_cgguni.png"
         />
       ),
     },
