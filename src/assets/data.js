@@ -20,19 +20,19 @@ const data = {
   experience: {
     title: "My Experience",
     companies: [
+       {
+        name: "Intelligent Labs",
+        description:"Built a company collaboration platform from scratch with Next.js on the FrontEnd, Node.js on Backend and MongoDB as the database.",
+        tenure: "April 2023 (Full Stack Developer Intern)",
+        websiteLink: "https://reacti.ai/",
+      },
       {
         name: "Slingshot",
         description:
           "Slingshot scouts and place teenage prodigies at top startups and companies. I worked in the new ventures department which experiments with new and unique ideas and try to make a business out of it.",
         tenure: "Nov 2022 - Feb 2023 (4 months) (SDE Intern)",
         websiteLink: "https://slingshotahead.com/",
-      },
-      {
-        name: "Intelligent Labs",
-        description:"Built a company collaboration platform from scratch with Next.js on the FrontEnd, Node.js on Backend and MongoDB as the database.",
-        tenure: "April 2023 (Full Stack Developer Intern)",
-        websiteLink: "https://reacti.ai/",
-      },
+      }
     ],
   },
   skills: [
