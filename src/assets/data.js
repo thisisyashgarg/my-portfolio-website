@@ -1,8 +1,7 @@
 import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
-export const RESUME_LINK =
-  "https://drive.google.com/file/d/1fnp-u0qffCsLzLX65vicHxA79fnQ9Iyi/view?usp=sharing";
+export const RESUME_LINK ="https://drive.google.com/file/d/1X8K8m2IDDyDmt_rNFnt1h4Q_D1dRhfM-/view?usp=sharing",
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -26,8 +25,14 @@ const data = {
         name: "Slingshot",
         description:
           "Slingshot scouts and place teenage prodigies at top startups and companies. I worked in the new ventures department which experiments with new and unique ideas and try to make a business out of it.",
-        tenure: "Nov 2022 - Feb 2023 (4 months) (Intern)",
+        tenure: "Nov 2022 - Feb 2023 (4 months) (SDE Intern)",
         websiteLink: "https://slingshotahead.com/",
+      },
+      {
+        name: "Intelligent Labs",
+        description:"Built a company collaboration platform from scratch with Next.js on the FrontEnd, Node.js on Backend and MongoDB as the database.",
+        tenure: "April 2023 (Full Stack Developer Intern)",
+        websiteLink: "https://reacti.ai/",
       },
     ],
   },
@@ -39,37 +44,6 @@ const data = {
           alt="reactLogo"
           className={BOOTSTRAP_FOR_SKILL_ICON}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-        />
-      ),
-    },
-
-    {
-      skillName: "Typescript",
-      skillIcon: (
-        <img
-          alt="tsLogo"
-          className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
-        />
-      ),
-    },
-    {
-      skillName: "Javascript",
-      skillIcon: (
-        <img
-          alt="jslogo"
-          className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-        />
-      ),
-    },
-    {
-      skillName: "TailwindCSS",
-      skillIcon: (
-        <img
-          alt="tailwindlogo"
-          className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
         />
       ),
     },
@@ -113,6 +87,40 @@ const data = {
         />
       ),
     },
+
+    {
+      skillName: "Typescript",
+      skillIcon: (
+        <img
+          alt="tsLogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
+        />
+      ),
+    },
+    {
+      skillName: "Javascript",
+      skillIcon: (
+        <img
+          alt="jslogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        />
+      ),
+    },
+    {
+      skillName: "TailwindCSS",
+      skillIcon: (
+        <img
+          alt="tailwindlogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
+        />
+      ),
+    },
+    
+   
+   
     {
       skillName: "HTML",
       skillIcon: (
@@ -129,7 +137,7 @@ const data = {
         <img
           alt="csslogo"
           className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1682686749/1452px-CSS3_logo_and_wordmark.svg-removebg-preview_cgguni.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
         />
       ),
     },
