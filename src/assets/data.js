@@ -1,9 +1,8 @@
 import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
-export const RESUME_LINK ="https://drive.google.com/file/d/1X8K8m2IDDyDmt_rNFnt1h4Q_D1dRhfM-/view?usp=sharing",
-export const PROFILE_PIC =
-  "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
+export const RESUME_LINK ="https://drive.google.com/file/d/1X8K8m2IDDyDmt_rNFnt1h4Q_D1dRhfM-/view?usp=sharing";
+export const PROFILE_PIC ="https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
   name: "Yash Garg",
   title: "Full Stack Developer",
