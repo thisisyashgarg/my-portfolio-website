@@ -1,7 +1,7 @@
 import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
-export const RESUME_LINK ="https://drive.google.com/file/d/1X8K8m2IDDyDmt_rNFnt1h4Q_D1dRhfM-/view?usp=sharing";
+export const RESUME_LINK ="https://drive.google.com/file/d/1vQ6OdN3o-Au6bWSjj4JGSdEvFGS5LdkN/view?usp=sharing";
 export const PROFILE_PIC ="https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
   name: "Yash Garg",
@@ -161,7 +161,7 @@ const data = {
    
     {
       title: "Foodify",
-      description: "Foodify is a swiggy clone app",
+      description: "Foodify is a food exploration app",
       tags: ["react", "tailwindcss", "redux-toolkit", "typescript"],
       codeLink: "https://github.com/thisisyashgarg/namaste-react",
       websiteLink: "https://foodifyme.netlify.app/",
@@ -173,7 +173,7 @@ const data = {
     },
     {
       title: "Ain't Youtube",
-      description: "Ain't Youtube is a youtube clone",
+      description: "Ain't Youtube is a video streaming app",
       tags: ["react", "tailwindcss", "redux-toolkit", "typescript", "youtube-api"],
       codeLink: "https://github.com/thisisyashgarg/youtube-clone",
       websiteLink: "https://aintyoutube.netlify.app/",
@@ -184,7 +184,7 @@ const data = {
       ],
     },
     {
-      title: "News Tweeter Bot",
+      title: "Cryptologer",
       description:
         "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
       tags: ["xml-js", "twit", "openai", "newsdata-api"],
