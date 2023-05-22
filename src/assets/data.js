@@ -22,14 +22,25 @@ const data = {
     companies: [
        {
         name: "Intelligent Labs",
-        description:"Built a company collaboration platform from scratch with Next.js on the FrontEnd, Node.js on Backend and MongoDB as the database.",
+        description:`
+        • Built a company collaboration platform from scratch single handedly.
+        • Worked closely in meetings with the founders to brainstorm the app flow.
+        • Responsible for complete user journey, eg: User Onboarding, Authentication, Search, Feed, Profile, etc.
+        • Built a MVC based Node.js backend with JWT used as the authentication.
+        • Built a feed page and search functionality that updates as new posts are added.
+        `,
         tenure: "April 2023 (Full Stack Developer Intern)",
         websiteLink: "https://reacti.ai/",
       },
       {
         name: "Slingshot",
-        description:
-          "Slingshot scouts and place teenage prodigies at top startups and companies. I worked in the new ventures department which experiments with new and unique ideas and try to make a business out of it.",
+        description: `
+        • Part of the new ventures department ( including founders ) which experiments with new ideas and tries to make business out of it.
+        • Active member of the Slingshot Discord Community teaching Node.js.
+        • Achieved 10000+ hits on EaseIt in just 20 days which is an AI productivity tool.
+        • Worked with and created some Node.js bots for Discord and Twitter.
+        • Created a Node.js crawler for a government website to get data of tenders passed.
+        • Deployed apps via Docker and AWS EC2 instances.`,
         tenure: "Nov 2022 - Feb 2023 (4 months) (SDE Intern)",
         websiteLink: "https://slingshotahead.com/",
       }
