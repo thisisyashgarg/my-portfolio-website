@@ -1,8 +1,10 @@
 import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
-export const RESUME_LINK ="https://drive.google.com/file/d/1w_DEtcbSZs6ZTUe3OxO9QI7cKGejMa_2/view?usp=sharing";
-export const PROFILE_PIC ="https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
+export const RESUME_LINK =
+  "https://drive.google.com/file/d/1w_DEtcbSZs6ZTUe3OxO9QI7cKGejMa_2/view?usp=sharing";
+export const PROFILE_PIC =
+  "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
   name: "Yash Garg",
   title: "Full Stack Developer",
@@ -20,30 +22,19 @@ const data = {
   experience: {
     title: "My Experience",
     companies: [
-       {
+      {
         name: "Intelligent Labs",
-        description:`
-        • Built a company collaboration platform from scratch single handedly.
-        • Worked closely in meetings with the founders to brainstorm the app flow.
-        • Responsible for complete user journey, eg: User Onboarding, Authentication, Search, Feed, Profile, etc.
-        • Built a MVC based Node.js backend with JWT used as the authentication.
-        • Built a feed page and search functionality that updates as new posts are added.
-        `,
+        description: `Developed a company collaboration platform from scratch, working closely with the founders to brainstorm the app flow. Took responsibility for the entire user journey, including user onboarding, authentication, search, feed, and profile. Implemented a Node.js backend using the MVC architecture, incorporating JWT authentication. Successfully built a dynamic feed page and search functionality that updates in real-time with new posts.`,
         tenure: "April 2023 (Full Stack Developer Intern)",
         websiteLink: "https://reacti.ai/",
       },
       {
         name: "Slingshot",
-        description: `
-        • Part of the new ventures department ( including founders ) which experiments with new ideas and tries to make business out of it.
-        • Active member of the Slingshot Discord Community teaching Node.js.
-        • Achieved 10000+ hits on EaseIt in just 20 days which is an AI productivity tool.
-        • Worked with and created some Node.js bots for Discord and Twitter.
-        • Created a Node.js crawler for a government website to get data of tenders passed.
-        • Deployed apps via Docker and AWS EC2 instances.`,
+        description:
+          "Part of the new ventures and collaborated with founders, teaching Node.js, achieving 10,000+ hits on EaseIt, creating Node.js bots, building data crawlers, and deploying apps using Docker and AWS EC2.",
         tenure: "Nov 2022 - Feb 2023 (4 months) (SDE Intern)",
         websiteLink: "https://slingshotahead.com/",
-      }
+      },
     ],
   },
   skills: [
@@ -128,9 +119,7 @@ const data = {
         />
       ),
     },
-    
-   
-   
+
     {
       skillName: "HTML",
       skillIcon: (
@@ -153,7 +142,6 @@ const data = {
     },
   ],
   projects: [
-   
     {
       title: "UnQueue",
       description:
@@ -162,14 +150,14 @@ const data = {
       codeLink: "https://github.com/thisisyashgarg/unqueue",
       websiteLink: "https://unqueue.netlify.app/",
       androidAppLink:
-        'https://drive.google.com/file/d/1jlq_eQv7EnLtAJlUlP_37OnmFaApuuPT/view?usp=drivesdk',
+        "https://drive.google.com/file/d/1jlq_eQv7EnLtAJlUlP_37OnmFaApuuPT/view?usp=drivesdk",
       screenshots: [
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/homepage_bej3xk.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/domains_d11nth.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179979/unqueue-ss/dashboard_gepykw.png",
       ],
     },
-   
+
     {
       title: "Foodify",
       description: "Foodify is a food exploration app",
@@ -185,13 +173,18 @@ const data = {
     {
       title: "Ain't Youtube",
       description: "Ain't Youtube is a video streaming app",
-      tags: ["react", "tailwindcss", "redux-toolkit", "typescript", "youtube-api"],
+      tags: [
+        "react",
+        "tailwindcss",
+        "redux-toolkit",
+        "typescript",
+        "youtube-api",
+      ],
       codeLink: "https://github.com/thisisyashgarg/youtube-clone",
       websiteLink: "https://aintyoutube.netlify.app/",
       screenshots: [
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374548/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-12_qf9qqa.png",
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374550/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-41_jqa6fd.png",
-
       ],
     },
     {
@@ -206,40 +199,39 @@ const data = {
         "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
       ],
     },
-     {
-      title: "EaseIt",
-      description:
-        "EaseIt is an AI powered tool that can write personalised messages, debug code of any language, make songs in any artist style, make your workout plan and can do anything that you can think of.",
-      tags: [
-        "openai",
-        "nodejs",
-        "text-davinci",
-        "speech-to-text",
-        "tailwindcss",
-      ],
-      codeLink: "https://github.com/thisisyashgarg/ease-it",
-      websiteLink: "https://easeit.cyclic.app/",
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131881/easeit/Screenshot_Capture_-_2023-02-23_-_11-23-52_a73u2n.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131873/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-06_zthyxs.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-59_jujhur.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-29_dor78m.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131883/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-48_hh8jjf.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131884/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-15_y12upr.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131888/easeit/Screenshot_Capture_-_2023-02-23_-_11-25-12_w48ou0.png",
-      ],
-    },
+    // {
+    //   title: "EaseIt",
+    //   description:
+    //     "EaseIt is an AI powered tool that can write personalised messages, debug code of any language, make songs in any artist style, make your workout plan and can do anything that you can think of.",
+    //   tags: [
+    //     "openai",
+    //     "nodejs",
+    //     "text-davinci",
+    //     "speech-to-text",
+    //     "tailwindcss",
+    //   ],
+    //   codeLink: "https://github.com/thisisyashgarg/ease-it",
+    //   websiteLink: "https://easeit.cyclic.app/",
+    //   screenshots: [
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131881/easeit/Screenshot_Capture_-_2023-02-23_-_11-23-52_a73u2n.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131873/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-06_zthyxs.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-59_jujhur.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131882/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-29_dor78m.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131883/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-48_hh8jjf.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131884/easeit/Screenshot_Capture_-_2023-02-23_-_11-24-15_y12upr.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131888/easeit/Screenshot_Capture_-_2023-02-23_-_11-25-12_w48ou0.png",
+    //   ],
+    // },
     {
       title: "Book Management API ( with Swagger Docs)",
-      description:
-"A simple API for book management",
-     tags: ["nodejs", "typescript", "swagger", "docker", "mvc"],
+      description: "A simple API for book management",
+      tags: ["nodejs", "typescript", "swagger", "docker", "mvc"],
       codeLink: "https://github.com/thisisyashgarg/vocally-assignment",
       websiteLink: "",
       screenshots: [
-"https://res.cloudinary.com/dwwtffefs/image/upload/v1680375357/books-api/Screenshot_Capture_-_2023-04-02_-_00-25-09_xnsdo8.png"      ],
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680375357/books-api/Screenshot_Capture_-_2023-04-02_-_00-25-09_xnsdo8.png",
+      ],
     },
-
 
     {
       title: "Meme Generator",
@@ -274,13 +266,14 @@ const data = {
     {
       title: "Tenzies Game",
       description:
-"Tenzies is a React-based dice game in which the goal is to roll until all dice are the same.",
+        "Tenzies is a React-based dice game in which the goal is to roll until all dice are the same.",
       tags: ["react", "typescript", "tailwindcss"],
       codeLink: "https://github.com/thisisyashgarg/tenzies-game",
       websiteLink: "https://tenziesmatch.netlify.app/",
 
       screenshots: [
-"https://res.cloudinary.com/dwwtffefs/image/upload/v1679938405/tenzies/Screenshot_Capture_-_2023-03-27_-_23-03-08_putehk.png"      ],
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1679938405/tenzies/Screenshot_Capture_-_2023-03-27_-_23-03-08_putehk.png",
+      ],
     },
     {
       title: "Discord Tweeter Bot",

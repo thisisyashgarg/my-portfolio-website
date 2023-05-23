@@ -7,7 +7,7 @@ function Experience({ title, companies }) {
       <p className="text-base text-left md:text-center text-gray-600 leading-relaxed mt-4">
         {companies.map((company, index) => {
           return (
-            <div key={index}>
+            <div key={index} className="mb-4">
               <a
                 href={company.websiteLink}
                 target="_blank"
@@ -18,7 +18,7 @@ function Experience({ title, companies }) {
                 </h1>
               </a>
 
-              <p> {company.tenure}</p>
+              <p className="text-black"> {company.tenure}</p>
               <p> {company.description}</p>
             </div>
           );

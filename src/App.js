@@ -19,26 +19,26 @@ function App() {
 
   return (
     <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100">
-      <div data-aos="fade-down" data-aos-duration="800">
+      <div data-aos="fade-down" data-aos-duration="500">
         <Card name={data.name} title={data.title} social={data.social} />
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800">
         <About title={data.about.title} description={data.about.description} />
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800">
         <Skills skills={data.skills} />
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800">
         <Experience
           title={data.experience.title}
           companies={data.experience.companies}
         />
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600">
         <Projects projects={data.projects} />
       </div>
       <Footer github={data.social.github} />
