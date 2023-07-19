@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1w_DEtcbSZs6ZTUe3OxO9QI7cKGejMa_2/view?usp=sharing";
+  "https://drive.google.com/file/d/1iU3ehgisQrHNgztArX2KBHTbJsCACOTX/view?usp=sharing";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -23,10 +23,22 @@ const data = {
     title: "My Experience",
     companies: [
       {
+        name: "Bluelearn",
+        description: `Developed a new notification system, contributed to user profile flow (design to implementation), and built Bluelearn Admin Panel v3.0 using React.js and Next.js.`,
+        tenure: "June 2023 - July 2023 (2 months) (React Developer Intern)",
+        websiteLink: "https://www.bluelearn.in/",
+      },
+      {
+        name: "iWaada",
+        description: `Improved application robustness by solving multiple bugs, added DOM to PDF generation, and integrated search filters, utilizing React.js, Node.js, EC2, and MongoDB.`,
+        tenure: "June 2023 - Present (Full Stack Developer)",
+        websiteLink: "https://www.iwaada.com/",
+      },
+      {
         name: "Intelligent Labs",
         description: `Developed a company collaboration platform from scratch, working closely with the founders to brainstorm the app flow. Took responsibility for the entire user journey, including user onboarding, authentication, search, feed, and profile. Implemented a Node.js backend using the MVC architecture, incorporating JWT authentication. Successfully built a dynamic feed page and search functionality that updates in real-time with new posts.`,
         tenure: "April 2023 (Full Stack Developer Intern)",
-        websiteLink: "https://reacti.ai/",
+        websiteLink: "https://new-reacti.netlify.app/",
       },
       {
         name: "Slingshot",
@@ -38,6 +50,16 @@ const data = {
     ],
   },
   skills: [
+    {
+      skillName: "NextJS",
+      skillIcon: (
+        <img
+          alt="nextjslogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
+        />
+      ),
+    },
     {
       skillName: "ReactJS",
       skillIcon: (
