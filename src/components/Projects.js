@@ -16,7 +16,7 @@ const Projects = ({ projects }) => {
         My Projects
       </h1>
       {projects.map((project, index) => (
-        <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1200">
+        <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600">
           <ProjectCard project={project} key={index} />
         </div>
       ))}
