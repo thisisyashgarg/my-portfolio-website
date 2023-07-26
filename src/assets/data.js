@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1iU3ehgisQrHNgztArX2KBHTbJsCACOTX/view?usp=sharing";
+"https://drive.google.com/file/d/1exR3KKMb6taLFfiebcdmqEo7jkr7OHmL/view?usp=sharing";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -31,14 +31,14 @@ const data = {
       {
         name: "iWaada",
         description: `Improved application robustness by solving multiple bugs, added DOM to PDF generation, and integrated search filters, utilizing React.js, Node.js, EC2, and MongoDB.`,
-        tenure: "June 2023 - Present (Full Stack Developer)",
+        tenure: "June 2023 - Present (Freelance - Full Stack Developer)",
         websiteLink: "https://www.iwaada.com/",
       },
       {
         name: "Intelligent Labs",
         description: `Developed a company collaboration platform from scratch, working closely with the founders to brainstorm the app flow. Took responsibility for the entire user journey, including user onboarding, authentication, search, feed, and profile. Implemented a Node.js backend using the MVC architecture, incorporating JWT authentication. Successfully built a dynamic feed page and search functionality that updates in real-time with new posts.`,
         tenure: "April 2023 (Full Stack Developer Intern)",
-        websiteLink: "https://new-reacti.netlify.app/",
+        websiteLink: "https://reacti.ai/",
       },
       {
         name: "Slingshot",
