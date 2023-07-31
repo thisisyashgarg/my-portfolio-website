@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/1exR3KKMb6taLFfiebcdmqEo7jkr7OHmL/view?usp=sharing";
+"https://drive.google.com/file/d/1m6cGjPaxVDKbOYHCxd2HUM8MmwMAngpt/view?usp=drive_link";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -25,7 +25,7 @@ const data = {
       {
         name: "Bluelearn",
         description: `Developed a new notification system, contributed to user profile flow (design to implementation), and built Bluelearn Admin Panel v3.0 using React.js and Next.js.`,
-        tenure: "June 2023 - July 2023 (2 months) (React Developer Intern)",
+        tenure: "June 2023 - Present (React Developer Intern)",
         websiteLink: "https://www.bluelearn.in/",
       },
       {
