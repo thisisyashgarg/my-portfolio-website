@@ -29,10 +29,10 @@ const data = {
         websiteLink: "https://www.bluelearn.in/",
       },
       {
-        name: "iWaada",
+        name: "Matrimonials",
         description: `Improved application robustness by solving multiple bugs, added DOM to PDF generation, and integrated search filters, utilizing React.js, Node.js, EC2, and MongoDB.`,
-        tenure: "June 2023 - Present (Freelance - Full Stack Developer)",
-        websiteLink: "https://www.iwaada.com/",
+        tenure: "June 2023 - July 2023 (Freelance - Full Stack Developer)",
+        websiteLink: "https://www.matrimonials.ai/",
       },
       {
         name: "Intelligent Labs",
