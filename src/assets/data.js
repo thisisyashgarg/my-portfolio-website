@@ -17,15 +17,24 @@ const data = {
   about: {
     title: "My Background",
     description:
-      "I'm a third-year B.Tech (Information Technology) student who loves building things. My passion for creating projects from scratch drives me to stay current with the latest technologies and to tackle projects of any size or complexity.  ",
+      "I'm a final-year B.Tech (Information Technology) student who loves building things. My passion for creating projects from scratch drives me to stay current with the latest technologies and to tackle projects of any size or complexity.  ",
   },
   experience: {
     title: "My Experience",
     companies: [
       {
+name: "Hiretal",
+description:"I developed a robust TypeScript and Express backend architecture, significantly optimizing Elasticsearch queries to achieve a 100-fold increase in speed. Additionally, I streamlined the deployment process on Digital Ocean by utilizing Docker, complemented with efficient build scripts. To further enhance system performance, I implemented caching mechanisms on both the frontend and backend, resulting in a remarkable 10 times faster response time. The working tech stack for this project included Next.js, Node.js, and Elasticsearch.",
+tenure:"Aug 2023 - Present (Full Stack Developer)",
+websiteLink:"https://hiretal.ai/"
+
+      },
+
+      {
         name: "Bluelearn",
-        description: `Developed a new notification system, contributed to user profile flow (design to implementation), and built Bluelearn Admin Panel v3.0 using React.js and Next.js.`,
-        tenure: "June 2023 - Present (React Developer Intern)",
+
+description:"Revamped the message interface and significantly contributed to the web release, incorporating features from the mobile app to enhance user experience. Additionally, developed Bluelearn Admin Panel v3.0, which includes advanced functionalities such as complex filters and a drag-and-drop feature. The technical work was carried out using a stack comprising Next.js and React Query.",      
+  tenure: "June 2023 - Present (React Developer Intern)",
         websiteLink: "https://www.bluelearn.in/",
       },
       {
