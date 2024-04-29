@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/1HcILm53O4BR7HoOG_6MNxu8G_L8bEm2q/view?usp=sharing";
+"https://drive.google.com/file/d/1D4g6j607Ihd8L25YEEIDulb5azj0gCKy/view?usp=sharing";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -24,7 +24,7 @@ const data = {
     companies: [
       {
 name: "Hiretal",
-description:"I developed a robust TypeScript and Express backend architecture, significantly optimizing Elasticsearch queries to achieve a 100-fold increase in speed. Additionally, I streamlined the deployment process on Digital Ocean by utilizing Docker, complemented with efficient build scripts. To further enhance system performance, I implemented caching mechanisms on both the frontend and backend, resulting in a remarkable 10 times faster response time. The working tech stack for this project included Next.js, Node.js, and Elasticsearch.",
+description:"Developed a robust TypeScript and Express backend architecture, significantly optimizing Elasticsearch queries to achieve a 100-fold increase in speed. Additionally, I streamlined the deployment process on Digital Ocean by utilizing Docker, complemented with efficient build scripts. To further enhance system performance, I implemented caching mechanisms on both the frontend and backend, resulting in a remarkable 10 times faster response time. The working tech stack for this project included Next.js, Node.js, and Elasticsearch.",
 tenure:"Aug 2023 - Present (Full Stack Developer)",
 websiteLink:"https://hiretal.ai/"
 
@@ -33,7 +33,7 @@ websiteLink:"https://hiretal.ai/"
       {
         name: "Bluelearn",
 
-description:"Revamped the message interface and significantly contributed to the web release, incorporating features from the mobile app to enhance user experience. Additionally, developed Bluelearn Admin Panel v3.0, which includes advanced functionalities such as complex filters and a drag-and-drop feature. The technical work was carried out using a stack comprising Next.js and React Query.",      
+description:"Developed an Application Review System (ARS) and an Application Tracking System (ATS) designed for tracking and managing job applications on the web, which successfully supported over 250,000 users. Additionally, I built Boldd from scratch, which successfully generated multiple leads in India and the US, subsequently generating revenue. I also undertook the revamping of the Admin Panel to version 3, enhancing the ability to manage and monitor content on the app. Throughout these projects, I worked with a tech stack that included Next.js, React Query, and Node.js.",      
   tenure: "June 2023 - Present (React Developer Intern)",
         websiteLink: "https://www.bluelearn.in/",
       },
