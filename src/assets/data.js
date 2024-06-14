@@ -25,7 +25,7 @@ const data = {
       {
 name: "Hiretal",
 description:"Developed a robust TypeScript and Express backend architecture, significantly optimizing Elasticsearch queries to achieve a 100-fold increase in speed. Additionally, I streamlined the deployment process on Digital Ocean by utilizing Docker, complemented with efficient build scripts. To further enhance system performance, I implemented caching mechanisms on both the frontend and backend, resulting in a remarkable 10 times faster response time. The working tech stack for this project included Next.js, Node.js, and Elasticsearch.",
-tenure:"Aug 2023 - Present (Full Stack Developer)",
+tenure:"Aug 2023 - May 2024",
 websiteLink:"https://hiretal.ai/"
 
       },
@@ -34,7 +34,7 @@ websiteLink:"https://hiretal.ai/"
         name: "Bluelearn",
 
 description:"Developed an Application Review System (ARS) and an Application Tracking System (ATS) designed for tracking and managing job applications on the web, which successfully supported over 250,000 users. Additionally, I built Boldd from scratch, which successfully generated multiple leads in India and the US, subsequently generating revenue. I also undertook the revamping of the Admin Panel to version 3, enhancing the ability to manage and monitor content on the app. Throughout these projects, I worked with a tech stack that included Next.js, React Query, and Node.js.",      
-  tenure: "June 2023 - Present (React Developer Intern)",
+  tenure: "June 2023 - May 2024",
         websiteLink: "https://www.bluelearn.in/",
       },
       {
