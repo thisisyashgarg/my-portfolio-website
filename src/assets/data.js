@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/1KJU8jLuV49e_uIWNeKjYlkAKK9yLTYzc/view?usp=drive_link";
+"https://drive.google.com/file/d/1YemsssnaSfP0Lq3gW8TAoUl0hBSGHzqH/view?usp=drive_link";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -17,7 +17,7 @@ const data = {
   about: {
     title: "My Background",
     description:
-      "I'm a final-year B.Tech (Information Technology) student who loves building things. My passion for creating projects from scratch drives me to stay current with the latest technologies and to tackle projects of any size or complexity.  ",
+      "I'm a B.Tech (Information Technology) graduate who loves building things. My passion for creating projects from scratch drives me to stay current with the latest technologies and to tackle projects of any size or complexity.  ",
   },
   experience: {
     title: "My Experience",
@@ -34,7 +34,7 @@ websiteLink:"https://hiretal.ai/"
         name: "Bluelearn",
 
 description:"Developed an Application Review System (ARS) and an Application Tracking System (ATS) designed for tracking and managing job applications on the web, which successfully supported over 250,000 users. Additionally, I built Boldd from scratch, which successfully generated multiple leads in India and the US, subsequently generating revenue. I also undertook the revamping of the Admin Panel to version 3, enhancing the ability to manage and monitor content on the app. Throughout these projects, I worked with a tech stack that included Next.js, React Query, and Node.js.",      
-  tenure: "June 2023 - May 2024",
+  tenure: "June 2023 - June 2024",
         websiteLink: "https://www.bluelearn.in/",
       },
       {
