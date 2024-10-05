@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/1YemsssnaSfP0Lq3gW8TAoUl0hBSGHzqH/view?usp=drive_link";
+"https://drive.google.com/file/d/13mx4xMnH339uzSv52PXE6wperLRjPmhN/view?usp=drive_link";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -22,6 +22,21 @@ const data = {
   experience: {
     title: "My Experience",
     companies: [
+
+      {
+        name: "Ventura Securities",
+        description:"I developed server-side mutual fund sections using React Server Components, utilizing Next.js as the primary tech stack. This implementation optimized the rendering process, enabling efficient data fetching and improving performance for complex financial data displays.",
+        tenure:"Aug 2024 - Sept 2024",
+        websiteLink:"https://www.venturasecurities.com/"
+        
+              },
+              {
+                name: "Patent Ninja",
+                description:"Patent Ninja is a tool I built from scratch to make the patent filing process fast and simple. It guides users through the entire process, enabling them to create a fully detailed patent in just around 10 minutes. I also integrated features like Patent Search and Patent Response, which help users quickly look up and validate patents on the go. For security and convenience, I added Google and email link authentication using Firebase. The platform runs on Next.js for the front end and AWS Amplify to manage the backend, making it a reliable and efficient solution for patent filing.",
+                tenure:"Mar 2024 - Present",
+                websiteLink:"https://app.dev.patent.ninja/"
+                
+                      },
       {
 name: "Hiretal",
 description:"Developed a robust TypeScript and Express backend architecture, significantly optimizing Elasticsearch queries to achieve a 100-fold increase in speed. Additionally, I streamlined the deployment process on Digital Ocean by utilizing Docker, complemented with efficient build scripts. To further enhance system performance, I implemented caching mechanisms on both the frontend and backend, resulting in a remarkable 10 times faster response time. The working tech stack for this project included Next.js, Node.js, and Elasticsearch.",
@@ -173,6 +188,19 @@ description:"Developed an Application Review System (ARS) and an Application Tra
     },
   ],
   projects: [
+
+    {
+      title: "Typu",
+      description:
+        "A simple tool to generate TypeScript types from cURL commands.",
+      tags: ["react", "tailwindcss", 'typescript'],
+      codeLink: "https://github.com/thisisyashgarg/typu",
+      websiteLink: "https://typu.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dwwtffefs/image/upload/v1728134691/Screenshot_2024-10-05_at_6.51.44_PM_iek2ah.png",
+      ],
+    },
+
     {
       title: "UnQueue",
       description:
