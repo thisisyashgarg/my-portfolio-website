@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/13mx4xMnH339uzSv52PXE6wperLRjPmhN/view?usp=drive_link";
+"https://drive.google.com/file/d/1V9gXE3jHcrGFmHfpKwWo1noSs_3Oo4yq/view?usp=sharing";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
