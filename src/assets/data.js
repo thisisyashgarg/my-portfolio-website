@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/1V9gXE3jHcrGFmHfpKwWo1noSs_3Oo4yq/view?usp=sharing";
+"https://drive.google.com/file/d/1uwWgrqgIjCuN4r6rSMhqZGJHbBSwQPc7/view?usp=sharing";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
 const data = {
@@ -22,6 +22,21 @@ const data = {
   experience: {
     title: "My Experience",
     companies: [
+
+      {
+        name: "Youe",
+        description:"Revamped the React Native app, driving Youe’s first revenue, and migrated its backend to reduce load times by 50%, using React Native and Next.js.",
+        tenure:"Nov 2024 - Present",
+        websiteLink:"https://youe.co/"
+        
+              },
+              {
+                name: "Patent Ninja",
+                description:"Patent Ninja is a tool I built from scratch to make the patent filing process fast and simple. It guides users through the entire process, enabling them to create a fully detailed patent in just around 10 minutes. I also integrated features like Patent Search and Patent Response, which help users quickly look up and validate patents on the go. For security and convenience, I added Google and email link authentication using Firebase. The platform runs on Next.js for the front end and AWS Amplify to manage the backend, making it a reliable and efficient solution for patent filing.",
+                tenure:"Mar 2024 - Present",
+                websiteLink:"https://app.dev.patent.ninja/"
+                
+                      },
 
       {
         name: "Ventura Securities",
